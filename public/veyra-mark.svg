@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Veyra">
+  <mask id="vk" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64"><rect width="64" height="64" fill="#fff"/><path d="M23.5 37 L 33.5 41.5 M 22 43.5 L 31 47.5" stroke="#000" stroke-width="1.7" stroke-linecap="round"/></mask>
+  <path d="M41 13 C 47 4, 60 6, 58 16 C 56.5 24, 46 25, 49 34 C 51 40, 57 41, 60 38" stroke="#F29B86" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <g fill="#30223F" mask="url(#vk)">
+    <path d="M41.5 12.5 a4 4 0 0 1 5.4 5.6 L 37 32 l -7.2 -4.6 Z"/>
+    <path d="M17 34 C 18 29, 24 26.5, 30 28 L 37.5 30.5 C 41.5 32, 42.5 37, 40 40.5 L 34 49 C 31 53, 25 55.5, 20 53.5 C 15 51.5, 13.5 46, 15 41 Z"/>
+    <path d="M12.6 32.4 a3.25 3.25 0 0 0 -2.2 4.4 L 16.5 43.6 L 20.7 38.6 L 15.6 32.9 a3.25 3.25 0 0 0 -3 -0.5 Z"/>
+  </g>
+  <path d="M30 3 Q31.2 8.8 37 10 Q31.2 11.2 30 17 Q28.8 11.2 23 10 Q28.8 8.8 30 3Z" fill="#C7A7F7"/>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "name": "veyra-creative-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Veyra — a gesture-powered creative studio that turns natural hand movements into digital drawings, with in-browser webcam hand tracking (MediaPipe Tasks Vision).",
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/copy-mediapipe-assets.mjs",
+    "predev": "npm run assets",
+    "dev": "vite",
+    "prebuild": "npm run assets",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "0.10.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2",
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.3",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.5"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "keywords": [
+    "veyra",
+    "gesture",
+    "hand-tracking",
+    "drawing",
+    "mediapipe",
+    "react",
+    "vite"
+  ]
+}

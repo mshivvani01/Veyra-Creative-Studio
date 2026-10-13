@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.vite
+coverage
+test-results
+playwright-report
+# Copied from node_modules by scripts/copy-mediapipe-assets.mjs
+public/mediapipe/wasm
